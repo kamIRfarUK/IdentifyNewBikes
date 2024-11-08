@@ -61,6 +61,8 @@ public class BaseClass {
 				switch(getProperties().getProperty("browser").toLowerCase()) 
 				{
 				case "chrome":
+					System.setProperty("webdriver.chrome.driver", "C:\\Users\\2328017\\eclipse-workspace\\IdentifyNewBikes\\src\\test\\java\\drivers\\chromedriver.exe");
+
 					ChromeOptions chromeOptions = new ChromeOptions();
 			        
 			        chromeOptions.addArguments("start-maximized"); // Start maximized
@@ -74,7 +76,10 @@ public class BaseClass {
 			        driver=new ChromeDriver(chromeOptions);
 			        break;
 			    case "edge":
+			    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\2328017\\eclipse-workspace\\IdentifyNewBikes\\src\\test\\java\\drivers\\msedgedriver.exe");
+
 			    	EdgeOptions edgeOptions = new EdgeOptions();
+			    	
 			        edgeOptions.addArguments("start-maximized"); // Start maximized
 			        edgeOptions.addArguments("disable-infobars"); // Disable info bars
 			        edgeOptions.addArguments("no-sandbox"); // Bypass OS security model
