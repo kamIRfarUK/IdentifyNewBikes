@@ -59,8 +59,12 @@ public class LoginPage extends BasePage{
 		//Switch to child Window
 		public void switchTowindow() {
 		Set<String> windowids=driver.getWindowHandles();
+		BaseClass.waitMethod(GoogleBtn);
 		List<String> windowid=new ArrayList<String>(windowids);
+		
+		
 		String childid=windowid.get(1);
+		System.out.println(childid);
 		driver.switchTo().window(childid);
 		}
 		//To enter invalid login details

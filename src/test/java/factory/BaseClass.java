@@ -1,17 +1,21 @@
 package factory;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
-import java.io.FileReader;
-import org.apache.commons.lang3.RandomStringUtils;
-import java.io.IOException;
 import java.util.Properties;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -57,10 +61,29 @@ public class BaseClass {
 				switch(getProperties().getProperty("browser").toLowerCase()) 
 				{
 				case "chrome":
-			        driver=new ChromeDriver();
+					ChromeOptions chromeOptions = new ChromeOptions();
+			        
+			        chromeOptions.addArguments("start-maximized"); // Start maximized
+			        chromeOptions.addArguments("disable-infobars"); // Disable info bars
+			        chromeOptions.addArguments("no-sandbox"); // Bypass OS security model
+			        chromeOptions.addArguments("disable-dev-shm-usage"); // Overcome limited resource problems
+			        chromeOptions.addArguments("--incognito");
+			       	chromeOptions.addArguments("--disable-notifications");
+			       	chromeOptions.addArguments("--disable-popup-blocking");
+			       	chromeOptions.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
+			        driver=new ChromeDriver(chromeOptions);
 			        break;
 			    case "edge":
-			    	driver=new EdgeDriver();
+			    	EdgeOptions edgeOptions = new EdgeOptions();
+			        edgeOptions.addArguments("start-maximized"); // Start maximized
+			        edgeOptions.addArguments("disable-infobars"); // Disable info bars
+			        edgeOptions.addArguments("no-sandbox"); // Bypass OS security model
+			        edgeOptions.addArguments("disable-dev-shm-usage"); // Overcome limited resource problems
+			        edgeOptions.addArguments("--incognito");
+			       	edgeOptions.addArguments("--disable-notifications");
+			       	edgeOptions.addArguments("--disable-popup-blocking");
+			       	edgeOptions.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});
+			    	driver=new EdgeDriver(edgeOptions);
 			        break;
 			    default:
 			        System.out.println("No matching browser");
@@ -87,6 +110,11 @@ public class BaseClass {
         p=new Properties();
 		p.load(file);
 		return p;
+	}
+    public static Logger getLogger() 
+	{		 
+		logger=LogManager.getLogger(); //Log4j
+		return logger;
 	}
   
     //To scroll to a particular element by using the javascript
