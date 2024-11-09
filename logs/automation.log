@@ -1,412 +1,164 @@
-16:38:52.676 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-16:38:52.682 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-16:38:52.683 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-16:38:52.684 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-16:38:52.684 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-16:38:52.725 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-16:38:52.726 [main] TRACE - Resolving type for handle sstf81fdoctype
-16:38:52.775 [main] TRACE - Resolving type for handle ctsst44f3type
-16:38:52.783 [main] TRACE - Resolving type for handle ctrsta472type
-16:38:52.829 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
-16:38:52.835 [main] TRACE - Resolving type for handle ctstylesheet4257type
-16:38:52.838 [main] TRACE - Resolving type for handle ctnumfmtsb58btype
-16:38:52.842 [main] TRACE - Resolving type for handle ctfonts6623type
-16:38:52.845 [main] TRACE - Resolving type for handle ctfont14d8type
-16:38:52.850 [main] TRACE - Resolving type for handle ctfills2c6ftype
-16:38:52.852 [main] TRACE - Resolving type for handle ctfill550ctype
-16:38:52.855 [main] TRACE - Resolving type for handle ctborders0d66type
-16:38:52.858 [main] TRACE - Resolving type for handle ctborderf935type
-16:38:52.861 [main] TRACE - Resolving type for handle ctcellxfs1322type
-16:38:52.864 [main] TRACE - Resolving type for handle ctxf97f7type
-16:38:52.867 [main] TRACE - Resolving type for handle ctcellstylexfsa81ftype
-16:38:52.872 [main] TRACE - Resolving type for handle workbookec17doctype
-16:38:52.878 [main] TRACE - Resolving type for handle ctworkbook83c3type
-16:38:52.882 [main] TRACE - Resolving type for handle ctsheets49fdtype
-16:38:52.885 [main] TRACE - Resolving type for handle ctsheet4dbetype
-16:38:52.888 [main] TRACE - Resolving type for handle strelationshipid1e94type
-16:38:52.891 [main] TRACE - Resolving type for handle worksheetf539doctype
-16:38:52.898 [main] TRACE - Resolving type for handle ctworksheet530dtype
-16:38:52.908 [main] TRACE - Resolving type for handle ctcols627ctype
-16:38:52.916 [main] TRACE - Resolving type for handle ctsheetdata8408type
-16:38:52.919 [main] TRACE - Resolving type for handle ctrowdd39type
-16:38:52.924 [main] TRACE - Resolving type for handle ctcell842btype
-16:38:52.932 [main] TRACE - Resolving type for handle stcellrefe4e0type
-16:38:52.953 [main] TRACE - Resolving type for handle stxstringf179type
-16:38:52.959 [main] TRACE - Resolving type for handle stcelltypebf95type
-16:38:52.987 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
-16:38:52.992 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
-16:38:52.995 [main] TRACE - Resolving type for handle stref90a2type
-16:38:53.002 [main] TRACE - Resolving type for handle propertiesee84doctype
-16:38:53.004 [main] TRACE - Resolving type for handle ctproperties3f10type
-16:38:53.014 [main] TRACE - Resolving type for handle properties288cdoctype
-16:38:53.016 [main] TRACE - Resolving type for handle ctproperties2c18type
-16:38:53.031 [main] DEBUG - Save content types part
-16:38:53.122 [main] DEBUG - Save package relationships
-16:38:53.127 [main] DEBUG - Save part 'docProps/app.xml'
-16:38:53.128 [main] DEBUG - Save part 'docProps/core.xml'
-16:38:53.131 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-16:38:53.131 [main] DEBUG - Save part 'xl/styles.xml'
-16:38:53.131 [main] DEBUG - Save part 'xl/workbook.xml'
-16:38:53.133 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-16:38:53.133 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-16:38:53.135 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-16:38:53.163 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-16:38:53.166 [main] DEBUG - Parsing relationship: /_rels/.rels
-16:38:53.213 [main] DEBUG - Save content types part
-16:38:53.215 [main] DEBUG - Save package relationships
-16:38:53.217 [main] DEBUG - Save part 'docProps/app.xml'
-16:38:53.217 [main] DEBUG - Save part 'docProps/core.xml'
-16:38:53.219 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-16:38:53.219 [main] DEBUG - Save part 'xl/styles.xml'
-16:38:53.219 [main] DEBUG - Save part 'xl/workbook.xml'
-16:38:53.221 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-16:38:53.221 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-16:38:53.222 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-16:38:53.247 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-16:38:53.247 [main] DEBUG - Parsing relationship: /_rels/.rels
-16:38:53.277 [main] DEBUG - Save content types part
-16:38:53.278 [main] DEBUG - Save package relationships
-16:38:53.280 [main] DEBUG - Save part 'docProps/app.xml'
-16:38:53.280 [main] DEBUG - Save part 'docProps/core.xml'
-16:38:53.282 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-16:38:53.282 [main] DEBUG - Save part 'xl/styles.xml'
-16:38:53.283 [main] DEBUG - Save part 'xl/workbook.xml'
-16:38:53.285 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-16:38:53.285 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-16:38:53.285 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-16:38:53.287 [main] INFO  - User --> Displays The details for Upcomming Bikes..
-16:39:06.200 [main] INFO  - Goto 'Used Cars' Page --> Displays popular models in a List... 
-16:39:06.796 [main] INFO  - User --> Mouse Hovers over the 'Used Cars' link Icon.. 
-16:39:09.798 [main] INFO  - User --> Selects 'Chennai' from the dropdown... 
-16:39:10.085 [main] INFO  - User --> Scroll-down to the list of 'Popular' Car Models... 
-16:39:10.420 [main] INFO  - User --> Extract all the popular Car Models in a List... 
-16:39:10.651 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-16:39:10.652 [main] DEBUG - Parsing relationship: /_rels/.rels
-16:39:10.682 [main] DEBUG - Save content types part
-16:39:10.683 [main] DEBUG - Save package relationships
-16:39:10.684 [main] DEBUG - Save part 'docProps/app.xml'
-16:39:10.685 [main] DEBUG - Save part 'docProps/core.xml'
-16:39:10.686 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-16:39:10.686 [main] DEBUG - Save part 'xl/styles.xml'
-16:39:10.687 [main] DEBUG - Save part 'xl/workbook.xml'
-16:39:10.690 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-16:39:10.690 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-16:39:10.691 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-16:39:10.692 [main] INFO  - User --> Displays the list of all the popular Car Models... 
-16:39:22.892 [main] INFO  - Goto website --> Login with Invalid Google Account..Displays error message 
-16:39:23.262 [main] INFO  - User --> Clicks on Login Icon.. 
-16:39:23.915 [main] INFO  - User --> Clicks on Google.. 
-16:39:24.467 [main] INFO  - User --> Switches to Login Frame.. 
-16:39:26.049 [main] INFO  - User --> Providing email credentials...
-16:39:30.140 [main] INFO  - User --> Sets Email Successfully.. 
-16:39:30.260 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-16:39:30.261 [main] DEBUG - Parsing relationship: /_rels/.rels
-16:39:30.282 [main] DEBUG - Save content types part
-16:39:30.284 [main] DEBUG - Save package relationships
-16:39:30.285 [main] DEBUG - Save part 'docProps/app.xml'
-16:39:30.285 [main] DEBUG - Save part 'docProps/core.xml'
-16:39:30.287 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-16:39:30.287 [main] DEBUG - Save part 'xl/styles.xml'
-16:39:30.287 [main] DEBUG - Save part 'xl/workbook.xml'
-16:39:30.291 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-16:39:30.291 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-16:39:30.291 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-16:39:30.313 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-16:39:30.314 [main] DEBUG - Parsing relationship: /_rels/.rels
-16:39:30.332 [main] DEBUG - Save content types part
-16:39:30.334 [main] DEBUG - Save package relationships
-16:39:30.335 [main] DEBUG - Save part 'docProps/app.xml'
-16:39:30.335 [main] DEBUG - Save part 'docProps/core.xml'
-16:39:30.336 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-16:39:30.336 [main] DEBUG - Save part 'xl/styles.xml'
-16:39:30.336 [main] DEBUG - Save part 'xl/workbook.xml'
-16:39:30.337 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-16:39:30.337 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-16:39:30.337 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-16:39:30.338 [main] INFO  - User --> Displays error message.. 
-17:06:58.017 [main] INFO  - Goto Upcomming Bikes Page --> Displays Details for Honda and price less than 4lac.. 
-17:06:58.545 [main] INFO  - User --> Mouse hovers on New Bikes Section.. 
-17:07:01.812 [main] INFO  - User --> Selects Upcoming Bikes from the dropdown.. 
-17:07:03.348 [main] INFO  - User --> Only Filters the Manufacturer to 'Honda'..
-17:07:03.574 [main] INFO  - User --> Clicks on the 'View More' Button..
-17:07:04.009 [main] INFO  - User --> Filters Bikes a price less than 4Lac..
-17:07:04.334 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:07:04.374 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:07:04.568 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-17:07:04.570 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-17:07:04.570 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-17:07:04.570 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-17:07:04.571 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-17:07:04.571 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-17:07:04.580 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-17:07:04.580 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-17:07:04.582 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-17:07:04.583 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-17:07:04.584 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-17:07:04.584 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-17:07:04.585 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-17:07:04.585 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-17:07:04.645 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-17:07:04.646 [main] TRACE - Resolving type for handle sstf81fdoctype
-17:07:04.706 [main] TRACE - Resolving type for handle ctsst44f3type
-17:07:04.715 [main] TRACE - Resolving type for handle ctrsta472type
-17:07:04.741 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
-17:07:04.745 [main] TRACE - Resolving type for handle ctstylesheet4257type
-17:07:04.748 [main] TRACE - Resolving type for handle ctnumfmtsb58btype
-17:07:04.751 [main] TRACE - Resolving type for handle ctfonts6623type
-17:07:04.754 [main] TRACE - Resolving type for handle ctfont14d8type
-17:07:04.759 [main] TRACE - Resolving type for handle ctfills2c6ftype
-17:07:04.761 [main] TRACE - Resolving type for handle ctfill550ctype
-17:07:04.763 [main] TRACE - Resolving type for handle ctborders0d66type
-17:07:04.766 [main] TRACE - Resolving type for handle ctborderf935type
-17:07:04.770 [main] TRACE - Resolving type for handle ctcellxfs1322type
-17:07:04.773 [main] TRACE - Resolving type for handle ctxf97f7type
-17:07:04.776 [main] TRACE - Resolving type for handle ctcellstylexfsa81ftype
-17:07:04.780 [main] TRACE - Resolving type for handle workbookec17doctype
-17:07:04.784 [main] TRACE - Resolving type for handle ctworkbook83c3type
-17:07:04.790 [main] TRACE - Resolving type for handle ctsheets49fdtype
-17:07:04.793 [main] TRACE - Resolving type for handle ctsheet4dbetype
-17:07:04.795 [main] TRACE - Resolving type for handle strelationshipid1e94type
-17:07:04.798 [main] TRACE - Resolving type for handle worksheetf539doctype
-17:07:04.803 [main] TRACE - Resolving type for handle ctworksheet530dtype
-17:07:04.811 [main] TRACE - Resolving type for handle ctcols627ctype
-17:07:04.818 [main] TRACE - Resolving type for handle ctsheetdata8408type
-17:07:04.821 [main] TRACE - Resolving type for handle ctrowdd39type
-17:07:04.826 [main] TRACE - Resolving type for handle ctcell842btype
-17:07:04.833 [main] TRACE - Resolving type for handle stcellrefe4e0type
-17:07:04.846 [main] TRACE - Resolving type for handle stxstringf179type
-17:07:04.849 [main] TRACE - Resolving type for handle stcelltypebf95type
-17:07:04.865 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
-17:07:04.870 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
-17:07:04.872 [main] TRACE - Resolving type for handle stref90a2type
-17:07:04.879 [main] TRACE - Resolving type for handle propertiesee84doctype
-17:07:04.881 [main] TRACE - Resolving type for handle ctproperties3f10type
-17:07:04.887 [main] TRACE - Resolving type for handle properties288cdoctype
-17:07:04.889 [main] TRACE - Resolving type for handle ctproperties2c18type
-17:07:04.900 [main] DEBUG - Save content types part
-17:07:04.977 [main] DEBUG - Save package relationships
-17:07:04.985 [main] DEBUG - Save part 'docProps/app.xml'
-17:07:04.986 [main] DEBUG - Save part 'docProps/core.xml'
-17:07:04.992 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:07:04.993 [main] DEBUG - Save part 'xl/styles.xml'
-17:07:04.993 [main] DEBUG - Save part 'xl/workbook.xml'
-17:07:04.994 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:07:04.994 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:07:04.995 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:07:05.021 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:07:05.022 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:07:05.060 [main] DEBUG - Save content types part
-17:07:05.061 [main] DEBUG - Save package relationships
-17:07:05.063 [main] DEBUG - Save part 'docProps/app.xml'
-17:07:05.063 [main] DEBUG - Save part 'docProps/core.xml'
-17:07:05.065 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:07:05.065 [main] DEBUG - Save part 'xl/styles.xml'
-17:07:05.066 [main] DEBUG - Save part 'xl/workbook.xml'
-17:07:05.068 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:07:05.068 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:07:05.068 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:07:05.089 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:07:05.090 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:07:05.119 [main] DEBUG - Save content types part
-17:07:05.120 [main] DEBUG - Save package relationships
-17:07:05.122 [main] DEBUG - Save part 'docProps/app.xml'
-17:07:05.122 [main] DEBUG - Save part 'docProps/core.xml'
-17:07:05.124 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:07:05.124 [main] DEBUG - Save part 'xl/styles.xml'
-17:07:05.124 [main] DEBUG - Save part 'xl/workbook.xml'
-17:07:05.127 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:07:05.128 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:07:05.128 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:07:05.130 [main] INFO  - User --> Displays The details for Upcomming Bikes..
-17:07:17.591 [main] INFO  - Goto 'Used Cars' Page --> Displays popular models in a List... 
-17:07:18.197 [main] INFO  - User --> Mouse Hovers over the 'Used Cars' link Icon.. 
-17:07:49.894 [main] INFO  - User --> Selects 'Chennai' from the dropdown... 
-17:07:50.112 [main] INFO  - User --> Scroll-down to the list of 'Popular' Car Models... 
-17:07:50.408 [main] INFO  - User --> Extract all the popular Car Models in a List... 
-17:07:50.604 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:07:50.605 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:07:50.629 [main] DEBUG - Save content types part
-17:07:50.630 [main] DEBUG - Save package relationships
-17:07:50.632 [main] DEBUG - Save part 'docProps/app.xml'
-17:07:50.633 [main] DEBUG - Save part 'docProps/core.xml'
-17:07:50.634 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:07:50.634 [main] DEBUG - Save part 'xl/styles.xml'
-17:07:50.634 [main] DEBUG - Save part 'xl/workbook.xml'
-17:07:50.637 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:07:50.637 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:07:50.637 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:07:50.638 [main] INFO  - User --> Displays the list of all the popular Car Models... 
-17:08:04.023 [main] INFO  - Goto website --> Login with Invalid Google Account..Displays error message 
-17:08:04.370 [main] INFO  - User --> Clicks on Login Icon.. 
-17:08:04.928 [main] INFO  - User --> Clicks on Google.. 
-17:08:05.451 [main] INFO  - User --> Switches to Login Frame.. 
-17:08:07.249 [main] INFO  - User --> Providing email credentials...
-17:08:09.553 [main] INFO  - User --> Sets Email Successfully.. 
-17:08:09.641 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:08:09.642 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:08:09.663 [main] DEBUG - Save content types part
-17:08:09.665 [main] DEBUG - Save package relationships
-17:08:09.666 [main] DEBUG - Save part 'docProps/app.xml'
-17:08:09.666 [main] DEBUG - Save part 'docProps/core.xml'
-17:08:09.667 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:08:09.667 [main] DEBUG - Save part 'xl/styles.xml'
-17:08:09.667 [main] DEBUG - Save part 'xl/workbook.xml'
-17:08:09.670 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:08:09.670 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:08:09.671 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:08:09.697 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:08:09.698 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:08:09.734 [main] DEBUG - Save content types part
-17:08:09.736 [main] DEBUG - Save package relationships
-17:08:09.737 [main] DEBUG - Save part 'docProps/app.xml'
-17:08:09.738 [main] DEBUG - Save part 'docProps/core.xml'
-17:08:09.738 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:08:09.740 [main] DEBUG - Save part 'xl/styles.xml'
-17:08:09.740 [main] DEBUG - Save part 'xl/workbook.xml'
-17:08:09.741 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:08:09.742 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:08:09.742 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:08:09.743 [main] INFO  - User --> Displays error message.. 
-17:45:39.208 [main] INFO  - Goto Upcomming Bikes Page --> Displays Details for Honda and price less than 4lac.. 
-17:45:39.667 [main] INFO  - User --> Mouse hovers on New Bikes Section.. 
-17:45:43.273 [main] INFO  - User --> Selects Upcoming Bikes from the dropdown.. 
-17:45:44.448 [main] INFO  - User --> Only Filters the Manufacturer to 'Honda'..
-17:45:44.841 [main] INFO  - User --> Clicks on the 'View More' Button..
-17:45:45.299 [main] INFO  - User --> Filters Bikes a price less than 4Lac..
-17:45:45.596 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:45:45.626 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:45:45.783 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-17:45:45.786 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-17:45:45.786 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-17:45:45.787 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-17:45:45.787 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-17:45:45.788 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-17:45:45.797 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-17:45:45.797 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-17:45:45.800 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-17:45:45.801 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-17:45:45.801 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-17:45:45.801 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-17:45:45.802 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-17:45:45.802 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-17:45:45.841 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-17:45:45.842 [main] TRACE - Resolving type for handle sstf81fdoctype
-17:45:45.889 [main] TRACE - Resolving type for handle ctsst44f3type
-17:45:45.896 [main] TRACE - Resolving type for handle ctrsta472type
-17:45:45.918 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
-17:45:45.922 [main] TRACE - Resolving type for handle ctstylesheet4257type
-17:45:45.924 [main] TRACE - Resolving type for handle ctnumfmtsb58btype
-17:45:45.927 [main] TRACE - Resolving type for handle ctfonts6623type
-17:45:45.930 [main] TRACE - Resolving type for handle ctfont14d8type
-17:45:45.935 [main] TRACE - Resolving type for handle ctfills2c6ftype
-17:45:45.937 [main] TRACE - Resolving type for handle ctfill550ctype
-17:45:45.939 [main] TRACE - Resolving type for handle ctborders0d66type
-17:45:45.942 [main] TRACE - Resolving type for handle ctborderf935type
-17:45:45.946 [main] TRACE - Resolving type for handle ctcellxfs1322type
-17:45:45.950 [main] TRACE - Resolving type for handle ctxf97f7type
-17:45:45.955 [main] TRACE - Resolving type for handle ctcellstylexfsa81ftype
-17:45:45.958 [main] TRACE - Resolving type for handle workbookec17doctype
-17:45:45.961 [main] TRACE - Resolving type for handle ctworkbook83c3type
-17:45:45.966 [main] TRACE - Resolving type for handle ctsheets49fdtype
-17:45:45.970 [main] TRACE - Resolving type for handle ctsheet4dbetype
-17:45:45.972 [main] TRACE - Resolving type for handle strelationshipid1e94type
-17:45:45.976 [main] TRACE - Resolving type for handle worksheetf539doctype
-17:45:45.982 [main] TRACE - Resolving type for handle ctworksheet530dtype
-17:45:45.991 [main] TRACE - Resolving type for handle ctcols627ctype
-17:45:45.997 [main] TRACE - Resolving type for handle ctsheetdata8408type
-17:45:45.999 [main] TRACE - Resolving type for handle ctrowdd39type
-17:45:46.004 [main] TRACE - Resolving type for handle ctcell842btype
-17:45:46.010 [main] TRACE - Resolving type for handle stcellrefe4e0type
-17:45:46.020 [main] TRACE - Resolving type for handle stxstringf179type
-17:45:46.024 [main] TRACE - Resolving type for handle stcelltypebf95type
-17:45:46.038 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
-17:45:46.042 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
-17:45:46.043 [main] TRACE - Resolving type for handle stref90a2type
-17:45:46.048 [main] TRACE - Resolving type for handle propertiesee84doctype
-17:45:46.050 [main] TRACE - Resolving type for handle ctproperties3f10type
-17:45:46.054 [main] TRACE - Resolving type for handle properties288cdoctype
-17:45:46.055 [main] TRACE - Resolving type for handle ctproperties2c18type
-17:45:46.067 [main] DEBUG - Save content types part
-17:45:46.133 [main] DEBUG - Save package relationships
-17:45:46.138 [main] DEBUG - Save part 'docProps/app.xml'
-17:45:46.139 [main] DEBUG - Save part 'docProps/core.xml'
-17:45:46.141 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:45:46.142 [main] DEBUG - Save part 'xl/styles.xml'
-17:45:46.142 [main] DEBUG - Save part 'xl/workbook.xml'
-17:45:46.143 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:45:46.143 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:45:46.144 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:45:46.165 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:45:46.167 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:45:46.201 [main] DEBUG - Save content types part
-17:45:46.203 [main] DEBUG - Save package relationships
-17:45:46.204 [main] DEBUG - Save part 'docProps/app.xml'
-17:45:46.204 [main] DEBUG - Save part 'docProps/core.xml'
-17:45:46.205 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:45:46.205 [main] DEBUG - Save part 'xl/styles.xml'
-17:45:46.205 [main] DEBUG - Save part 'xl/workbook.xml'
-17:45:46.206 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:45:46.206 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:45:46.206 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:45:46.229 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:45:46.230 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:45:46.249 [main] DEBUG - Save content types part
-17:45:46.251 [main] DEBUG - Save package relationships
-17:45:46.251 [main] DEBUG - Save part 'docProps/app.xml'
-17:45:46.251 [main] DEBUG - Save part 'docProps/core.xml'
-17:45:46.252 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:45:46.252 [main] DEBUG - Save part 'xl/styles.xml'
-17:45:46.252 [main] DEBUG - Save part 'xl/workbook.xml'
-17:45:46.253 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:45:46.253 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:45:46.253 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:45:46.254 [main] INFO  - User --> Displays The details for Upcomming Bikes..
-17:46:02.011 [main] INFO  - Goto 'Used Cars' Page --> Displays popular models in a List... 
-17:46:02.525 [main] INFO  - User --> Mouse Hovers over the 'Used Cars' link Icon.. 
-17:46:04.795 [main] INFO  - User --> Selects 'Chennai' from the dropdown... 
-17:46:05.003 [main] INFO  - User --> Scroll-down to the list of 'Popular' Car Models... 
-17:46:05.303 [main] INFO  - User --> Extract all the popular Car Models in a List... 
-17:46:05.484 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:46:05.484 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:46:05.505 [main] DEBUG - Save content types part
-17:46:05.506 [main] DEBUG - Save package relationships
-17:46:05.507 [main] DEBUG - Save part 'docProps/app.xml'
-17:46:05.508 [main] DEBUG - Save part 'docProps/core.xml'
-17:46:05.509 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:46:05.509 [main] DEBUG - Save part 'xl/styles.xml'
-17:46:05.509 [main] DEBUG - Save part 'xl/workbook.xml'
-17:46:05.512 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:46:05.512 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:46:05.512 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:46:05.513 [main] INFO  - User --> Displays the list of all the popular Car Models... 
-17:46:47.596 [main] INFO  - Goto website --> Login with Invalid Google Account..Displays error message 
-17:46:47.921 [main] INFO  - User --> Clicks on Login Icon.. 
-17:46:49.457 [main] INFO  - User --> Clicks on Google.. 
-17:46:50.085 [main] INFO  - User --> Switches to Login Frame.. 
-17:46:52.058 [main] INFO  - User --> Providing email credentials...
-17:46:54.363 [main] INFO  - User --> Sets Email Successfully.. 
-17:46:54.494 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:46:54.495 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:46:54.519 [main] DEBUG - Save content types part
-17:46:54.520 [main] DEBUG - Save package relationships
-17:46:54.521 [main] DEBUG - Save part 'docProps/app.xml'
-17:46:54.521 [main] DEBUG - Save part 'docProps/core.xml'
-17:46:54.524 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:46:54.525 [main] DEBUG - Save part 'xl/styles.xml'
-17:46:54.525 [main] DEBUG - Save part 'xl/workbook.xml'
-17:46:54.527 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:46:54.527 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:46:54.527 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:46:54.550 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:46:54.550 [main] DEBUG - Parsing relationship: /_rels/.rels
-17:46:54.570 [main] DEBUG - Save content types part
-17:46:54.571 [main] DEBUG - Save package relationships
-17:46:54.572 [main] DEBUG - Save part 'docProps/app.xml'
-17:46:54.572 [main] DEBUG - Save part 'docProps/core.xml'
-17:46:54.573 [main] DEBUG - Save part 'xl/sharedStrings.xml'
-17:46:54.573 [main] DEBUG - Save part 'xl/styles.xml'
-17:46:54.574 [main] DEBUG - Save part 'xl/workbook.xml'
-17:46:54.575 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
-17:46:54.575 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
-17:46:54.575 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
-17:46:54.576 [main] INFO  - User --> Displays error message.. 
+22:02:29.920 [main] INFO  - Goto Upcomming Bikes Page --> Displays Details for Honda and price less than 4lac.. 
+22:02:30.454 [main] INFO  - User --> Mouse hovers on New Bikes Section.. 
+22:02:51.597 [main] INFO  - User --> Selects Upcoming Bikes from the dropdown.. 
+22:02:52.185 [main] INFO  - User --> Only Filters the Manufacturer to 'Honda'..
+22:02:52.477 [main] INFO  - User --> Clicks on the 'View More' Button..
+22:02:52.938 [main] INFO  - User --> Filters Bikes a price less than 4Lac..
+22:02:53.243 [main] TRACE - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+22:02:53.245 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+22:02:53.246 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+22:02:53.246 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+22:02:53.247 [main] TRACE - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+22:02:53.248 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+22:02:53.255 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+22:02:53.256 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+22:02:53.259 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+22:02:53.260 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+22:02:53.261 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+22:02:53.262 [main] TRACE - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+22:02:53.262 [main] TRACE - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+22:02:53.263 [main] TRACE - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+22:02:53.295 [main] TRACE - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+22:02:53.295 [main] TRACE - Resolving type for handle ctworkbook83c3type
+22:02:53.337 [main] TRACE - Resolving type for handle ctworkbookpr03a5type
+22:02:53.342 [main] TRACE - Resolving type for handle ctbookviewsb864type
+22:02:53.343 [main] TRACE - Resolving type for handle ctbookviewf677type
+22:02:53.346 [main] TRACE - Resolving type for handle ctsheets49fdtype
+22:02:53.348 [main] TRACE - Resolving type for handle propertiesee84doctype
+22:02:53.348 [main] TRACE - Resolving type for handle ctproperties3f10type
+22:02:53.352 [main] TRACE - Resolving type for handle properties288cdoctype
+22:02:53.353 [main] TRACE - Resolving type for handle ctproperties2c18type
+22:02:53.359 [main] TRACE - Resolving type for handle sstf81fdoctype
+22:02:53.361 [main] TRACE - Resolving type for handle ctsst44f3type
+22:02:53.365 [main] TRACE - Resolving type for handle stylesheet5d8bdoctype
+22:02:53.366 [main] TRACE - Resolving type for handle ctstylesheet4257type
+22:02:53.368 [main] TRACE - Resolving type for handle ctfont14d8type
+22:02:53.373 [main] TRACE - Resolving type for handle ctfontsizeb3b9type
+22:02:53.379 [main] TRACE - Resolving type for handle ctcolord2c2type
+22:02:53.381 [main] TRACE - Resolving type for handle ctfontname2dc3type
+22:02:53.383 [main] TRACE - Resolving type for handle stxstringf179type
+22:02:53.387 [main] TRACE - Resolving type for handle ctfontfamily685ctype
+22:02:53.389 [main] TRACE - Resolving type for handle stfontfamily9c6ctype
+22:02:53.393 [main] TRACE - Resolving type for handle ctfontschemebf5dtype
+22:02:53.395 [main] TRACE - Resolving type for handle stfontschemef36dtype
+22:02:53.399 [main] TRACE - Resolving type for handle ctfill550ctype
+22:02:53.401 [main] TRACE - Resolving type for handle ctpatternfill7452type
+22:02:53.405 [main] TRACE - Resolving type for handle stpatterntype7939type
+22:02:53.408 [main] TRACE - Resolving type for handle ctborderf935type
+22:02:53.411 [main] TRACE - Resolving type for handle ctborderpre497type
+22:02:53.415 [main] TRACE - Resolving type for handle ctxf97f7type
+22:02:53.419 [main] TRACE - Resolving type for handle stnumfmtid76fbtype
+22:02:53.420 [main] TRACE - Resolving type for handle stfontid9d63type
+22:02:53.422 [main] TRACE - Resolving type for handle stfillida097type
+22:02:53.423 [main] TRACE - Resolving type for handle stborderid1a80type
+22:02:53.424 [main] TRACE - Resolving type for handle stcellstylexfid70c7type
+22:02:53.427 [main] TRACE - Resolving type for handle ctsheet4dbetype
+22:02:53.431 [main] TRACE - Resolving type for handle ctworksheet530dtype
+22:02:53.436 [main] TRACE - Resolving type for handle ctsheetformatprdef7type
+22:02:53.439 [main] TRACE - Resolving type for handle ctsheetviewsb918type
+22:02:53.441 [main] TRACE - Resolving type for handle ctsheetview0f43type
+22:02:53.445 [main] TRACE - Resolving type for handle ctsheetdimensiond310type
+22:02:53.446 [main] TRACE - Resolving type for handle stref90a2type
+22:02:53.447 [main] TRACE - Resolving type for handle ctsheetdata8408type
+22:02:53.448 [main] TRACE - Resolving type for handle ctpagemargins5455type
+22:02:53.452 [main] TRACE - Resolving type for handle ctcols627ctype
+22:02:53.453 [main] TRACE - Resolving type for handle strelationshipid1e94type
+22:02:53.454 [main] TRACE - Resolving type for handle ctrowdd39type
+22:02:53.459 [main] TRACE - Resolving type for handle ctcell842btype
+22:02:53.464 [main] TRACE - Resolving type for handle stcellrefe4e0type
+22:02:53.465 [main] TRACE - Resolving type for handle ctrsta472type
+22:02:53.467 [main] TRACE - Resolving type for handle stcelltypebf95type
+22:02:53.484 [main] TRACE - Resolving type for handle ctnumfmtsb58btype
+22:02:53.485 [main] TRACE - Resolving type for handle ctfonts6623type
+22:02:53.488 [main] TRACE - Resolving type for handle ctfills2c6ftype
+22:02:53.489 [main] TRACE - Resolving type for handle ctborders0d66type
+22:02:53.490 [main] TRACE - Resolving type for handle ctcellxfs1322type
+22:02:53.492 [main] TRACE - Resolving type for handle ctcellstylexfsa81ftype
+22:02:53.503 [main] DEBUG - Save core properties part
+22:02:53.503 [main] DEBUG - Save content types part
+22:02:53.584 [main] DEBUG - Save package relationships
+22:02:53.595 [main] DEBUG - Save part 'docProps/app.xml'
+22:02:53.599 [main] DEBUG - Save part 'docProps/core.xml'
+22:02:53.610 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:02:53.611 [main] DEBUG - Save part 'xl/styles.xml'
+22:02:53.611 [main] DEBUG - Save part 'xl/workbook.xml'
+22:02:53.613 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:02:53.618 [main] DEBUG - Save content types part
+22:02:53.620 [main] DEBUG - Save package relationships
+22:02:53.622 [main] DEBUG - Save part 'docProps/app.xml'
+22:02:53.623 [main] DEBUG - Save part 'docProps/core.xml'
+22:02:53.625 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:02:53.625 [main] DEBUG - Save part 'xl/styles.xml'
+22:02:53.625 [main] DEBUG - Save part 'xl/workbook.xml'
+22:02:53.628 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:02:53.668 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:02:53.669 [main] DEBUG - Parsing relationship: /_rels/.rels
+22:02:53.695 [main] TRACE - Resolving type for handle workbookec17doctype
+22:02:53.697 [main] TRACE - Resolving type for handle worksheetf539doctype
+22:02:53.710 [main] DEBUG - Save content types part
+22:02:53.711 [main] DEBUG - Save package relationships
+22:02:53.712 [main] DEBUG - Save part 'docProps/app.xml'
+22:02:53.712 [main] DEBUG - Save part 'docProps/core.xml'
+22:02:53.713 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:02:53.713 [main] DEBUG - Save part 'xl/styles.xml'
+22:02:53.713 [main] DEBUG - Save part 'xl/workbook.xml'
+22:02:53.714 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:02:53.738 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:02:53.738 [main] DEBUG - Parsing relationship: /_rels/.rels
+22:02:53.754 [main] DEBUG - Save content types part
+22:02:53.756 [main] DEBUG - Save package relationships
+22:02:53.756 [main] DEBUG - Save part 'docProps/app.xml'
+22:02:53.757 [main] DEBUG - Save part 'docProps/core.xml'
+22:02:53.757 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:02:53.758 [main] DEBUG - Save part 'xl/styles.xml'
+22:02:53.758 [main] DEBUG - Save part 'xl/workbook.xml'
+22:02:53.759 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:02:53.759 [main] INFO  - User --> Displays The details for Upcomming Bikes..
+22:03:02.690 [main] INFO  - Goto 'Used Cars' Page --> Displays popular models in a List... 
+22:03:03.247 [main] INFO  - User --> Mouse Hovers over the 'Used Cars' link Icon.. 
+22:03:07.581 [main] INFO  - User --> Selects 'Chennai' from the dropdown... 
+22:03:07.782 [main] INFO  - User --> Scroll-down to the list of 'Popular' Car Models... 
+22:03:08.098 [main] INFO  - User --> Extract all the popular Car Models in a List... 
+22:03:08.332 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:03:08.332 [main] DEBUG - Parsing relationship: /_rels/.rels
+22:03:08.354 [main] DEBUG - Save content types part
+22:03:08.355 [main] DEBUG - Save package relationships
+22:03:08.356 [main] DEBUG - Save part 'docProps/app.xml'
+22:03:08.356 [main] DEBUG - Save part 'docProps/core.xml'
+22:03:08.356 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:03:08.356 [main] DEBUG - Save part 'xl/styles.xml'
+22:03:08.357 [main] DEBUG - Save part 'xl/workbook.xml'
+22:03:08.357 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:03:08.358 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
+22:03:08.358 [main] INFO  - User --> Displays the list of all the popular Car Models... 
+22:03:18.370 [main] INFO  - Goto website --> Login with Invalid Google Account..Displays error message 
+22:03:18.641 [main] INFO  - User --> Clicks on Login Icon.. 
+22:03:19.043 [main] INFO  - User --> Clicks on Google.. 
+22:03:19.412 [main] INFO  - User --> Switches to Login Frame.. 
+22:03:21.162 [main] INFO  - User --> Providing email credentials...
+22:03:23.165 [main] ERROR - Setting Email failed: null
+22:03:23.284 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:03:23.285 [main] DEBUG - Parsing relationship: /_rels/.rels
+22:03:23.309 [main] DEBUG - Save content types part
+22:03:23.311 [main] DEBUG - Save package relationships
+22:03:23.312 [main] DEBUG - Save part 'docProps/app.xml'
+22:03:23.312 [main] DEBUG - Save part 'docProps/core.xml'
+22:03:23.313 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:03:23.313 [main] DEBUG - Save part 'xl/styles.xml'
+22:03:23.314 [main] DEBUG - Save part 'xl/workbook.xml'
+22:03:23.315 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:03:23.315 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
+22:03:23.315 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
+22:03:23.342 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:03:23.343 [main] DEBUG - Parsing relationship: /_rels/.rels
+22:03:23.364 [main] DEBUG - Save content types part
+22:03:23.365 [main] DEBUG - Save package relationships
+22:03:23.366 [main] DEBUG - Save part 'docProps/app.xml'
+22:03:23.366 [main] DEBUG - Save part 'docProps/core.xml'
+22:03:23.368 [main] DEBUG - Save part 'xl/sharedStrings.xml'
+22:03:23.368 [main] DEBUG - Save part 'xl/styles.xml'
+22:03:23.368 [main] DEBUG - Save part 'xl/workbook.xml'
+22:03:23.369 [main] DEBUG - Save part 'xl/worksheets/sheet1.xml'
+22:03:23.369 [main] DEBUG - Save part 'xl/worksheets/sheet2.xml'
+22:03:23.370 [main] DEBUG - Save part 'xl/worksheets/sheet3.xml'
+22:03:23.370 [main] INFO  - User --> Displays error message.. 

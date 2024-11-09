@@ -4,11 +4,13 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.function.Function;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +21,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
@@ -145,6 +148,23 @@ public class BaseClass {
 		WebDriverWait mywait=new WebDriverWait(driver,Duration.ofSeconds(70));
 		mywait.until(ExpectedConditions.visibilityOf(element));
 	}
+    ///////////////////////////////////////////////
+    public static void waitForWindowMethod(WebDriver driver) {
+    	// Initialize Fluent Wait
+        FluentWait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofSeconds(2))
+                .ignoring(NoSuchElementException.class)
+                .ignoring(IndexOutOfBoundsException.class);
+
+        // Wait until the number of window handles is greater than 1
+        wait.until(new Function<WebDriver, Boolean>() {
+            public Boolean apply(WebDriver driver) {
+                return driver.getWindowHandles().size() > 1;
+            }
+        });
+    }
+    ////////////////////////////////////////////
   
 	}
 

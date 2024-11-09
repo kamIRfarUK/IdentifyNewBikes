@@ -50,7 +50,7 @@ public class LoginSteps {
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			BaseClass.getLogger().error("Setting Email failed: " + e.getMessage());
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 

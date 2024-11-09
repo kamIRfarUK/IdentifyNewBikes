@@ -1,3 +1,0 @@
-file:Features/UsedCars.feature:7
-file:Features/UpcomingHondaBikes.feature:7
-file:Features/ZigWheelsLogin.feature:4

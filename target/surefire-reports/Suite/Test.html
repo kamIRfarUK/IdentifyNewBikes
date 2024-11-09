@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 08 19:39:34 IST 2024</td>
+<td>Started on:</td><td>Sat Nov 09 21:16:31 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12055 ms)</td>
+<tr><td>Total time:</td><td>61 seconds (61542 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,169 +67,28 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid Google account details", "Google Login"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;LTIN508663&apos;, ip: &apos;192.168.0.101&apos;
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, no-sandbox, disable-dev-shm-usage, --incognito, --disable-notifications, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., excludeSwitches: [enable-automation], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at factory.BaseClass.initilizeBrowser(BaseClass.java:86)
-	at stepDefinitions.Hooks.setup(Hooks.java:28)
-</pre></div><a href='#' onClick='toggleBox("stack-trace941453849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace941453849'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;LTIN508663&apos;, ip: &apos;192.168.0.101&apos;
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, no-sandbox, disable-dev-shm-usage, --incognito, --disable-notifications, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., excludeSwitches: [enable-automation], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at factory.BaseClass.initilizeBrowser(BaseClass.java:86)
-	at stepDefinitions.Hooks.setup(Hooks.java:28)
-</pre></div></td>
-<td>1</td>
-<td>testRunner.TestRunner@68999068</td></tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View popular used car models in Chennai", "Display popular used car models in Chennai"</td>
+<td></td>
+<td>12</td>
+<td>testRunner.TestRunner@71a8adcf</td></tr>
 <tr>
 <td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View upcoming Honda bikes under 4Lac on ZigWheels", "Display upcoming Honda bikes under 4Lac in India on ZigWheels"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;LTIN508663&apos;, ip: &apos;192.168.0.101&apos;
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, no-sandbox, disable-dev-shm-usage, --incognito, --disable-notifications, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., excludeSwitches: [enable-automation], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at factory.BaseClass.initilizeBrowser(BaseClass.java:86)
-	at stepDefinitions.Hooks.setup(Hooks.java:28)
-</pre></div><a href='#' onClick='toggleBox("stack-trace634210724", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace634210724'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;LTIN508663&apos;, ip: &apos;192.168.0.101&apos;
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, no-sandbox, disable-dev-shm-usage, --incognito, --disable-notifications, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., excludeSwitches: [enable-automation], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at factory.BaseClass.initilizeBrowser(BaseClass.java:86)
-	at stepDefinitions.Hooks.setup(Hooks.java:28)
-</pre></div></td>
-<td>3</td>
-<td>testRunner.TestRunner@68999068</td></tr>
+<td></td>
+<td>25</td>
+<td>testRunner.TestRunner@71a8adcf</td></tr>
 <tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View popular used car models in Chennai", "Display popular used car models in Chennai"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;LTIN508663&apos;, ip: &apos;192.168.0.101&apos;
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, no-sandbox, disable-dev-shm-usage, --incognito, --disable-notifications, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., excludeSwitches: [enable-automation], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at factory.BaseClass.initilizeBrowser(BaseClass.java:86)
-	at stepDefinitions.Hooks.setup(Hooks.java:28)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1021656938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1021656938'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
-  (session not created: DevToolsActivePort file doesn&apos;t exist)
-  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
-Host info: host: &apos;LTIN508663&apos;, ip: &apos;192.168.0.101&apos;
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, no-sandbox, disable-dev-shm-usage, --incognito, --disable-notifications, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., excludeSwitches: [enable-automation], extensions: []}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
-	at factory.BaseClass.initilizeBrowser(BaseClass.java:86)
-	at stepDefinitions.Hooks.setup(Hooks.java:28)
-</pre></div></td>
-<td>2</td>
-<td>testRunner.TestRunner@68999068</td></tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid Google account details", "Google Login"</td>
+<td></td>
+<td>14</td>
+<td>testRunner.TestRunner@71a8adcf</td></tr>
 </table><p>
 </body>
 </html>

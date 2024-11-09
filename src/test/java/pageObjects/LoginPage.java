@@ -58,6 +58,9 @@ public class LoginPage extends BasePage{
 		}
 		//Switch to child Window
 		public void switchTowindow() {
+		/////////////////////////
+		BaseClass.waitForWindowMethod(driver);	
+		//////////////////////////	
 		Set<String> windowids=driver.getWindowHandles();
 		BaseClass.waitMethod(GoogleBtn);
 		List<String> windowid=new ArrayList<String>(windowids);
@@ -71,7 +74,6 @@ public class LoginPage extends BasePage{
 		public void setEmail() throws InterruptedException {
 			emailList = new ArrayList<>();
 			emailList.add(BaseClass.randomeString() + "@gmail.com");
-			emailList.add(BaseClass.randomeString()+"@xyz");
 			emailList.add("");
 			for(String email:emailList) {
 				System.out.println(email);
@@ -83,6 +85,9 @@ public class LoginPage extends BasePage{
 				errorList.add(error);
 				System.out.println(error);
 				Email.clear();
+				////////////////////
+				throw new InterruptedException();
+				///////////////////
 			}
 			
 		}
@@ -90,11 +95,13 @@ public class LoginPage extends BasePage{
 		//To store all the data into excel data
 		public void errorMessage() {
 			List<String> headers = Arrays.asList("EmailIds", "Error Message");
+			
 		    try {
 		        DataWriter.putData(emailList, 0, "Account Details", headers);
 		    } catch (IOException e) {
 		        e.printStackTrace();
 		    }
+		    
 		    try {
 		        DataWriter.putData(errorList, 1, "Account Details", headers);
 		    } catch (IOException e) {
