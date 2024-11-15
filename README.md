@@ -20,7 +20,16 @@ Automation Testing on zigwheels.com
 | N°  | Item              |        Detalle |
 |:---:|:------------------|---------------:|
 |  1  | Java              |        11.0.15 |
-|  2  | Gradle            |            7.4 |
+|  2  | Selenium          |         7.25.0 |
+|  3  | Apache POI        |          5.2.5 |
+|  4  | Cucumber          |         7.16.1 |
+|  5  | TestNg            |          7.4.0 |
+|  6  | Extent Report     |          5.1.1 |
+|  7  | log4j2            |         2.20.0 |
+
+
+
+
 |  3  | Navegador         |  Google Chrome |
 |  4  | Sistema Operativo | Windows 10 Pro |
 |  5  | Rama principal    |         master |
