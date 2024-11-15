@@ -25,13 +25,9 @@
 |  5  | TestNg            |          7.4.0 |
 |  6  | Extent Report     |          5.1.1 |
 |  7  | log4j2            |         2.20.0 |
-
-
-
-
-|  3  | Navegador         |  Google Chrome |
-|  4  | Sistema Operativo | Windows 10 Pro |
-|  5  | Rama principal    |         master |
+|  8  | Browser           |  Google Chrome |
+|  9  | Operating System  | Windows 10 Pro |
+|  10 | Main Branch       |         master |
 
 
 
