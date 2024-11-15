@@ -16,9 +16,9 @@
 
 [![Iungot Server Application](https://jordinodejs.vercel.app/api/pin/?username=kamIRfarUK&repo=IdentifyNewBikes&theme=calm&bg_color=c2c7ff&title_color=000000&icon_color=000000&border_color=000000&text_color=000000)](https://github.com/kamIRfarUK/IdentifyNewBikes)
 
-## Información General 🔬
+## Genaral Informations 🔬
 
-| N°  | Item              |        Detalle |
+| N°  | Item              |        Version |
 |:---:|:------------------|---------------:|
 |  1  | Java              |        11.0.15 |
 |  2  | Selenium          |         7.25.0 |
