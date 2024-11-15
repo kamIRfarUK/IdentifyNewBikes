@@ -1,13 +1,13 @@
 # IdentifyNewBikes
 Automation Testing on zigwheels.com
-![GitHub repo size](https://img.shields.io/github/repo-size/DiegoPinzon20/serenity-bdd-base-automation?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/DiegoPinzon20/serenity-bdd-base-automation?color=orange&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/DiegoPinzon20/serenity-bdd-base-automation?color=success&style=flat-square)
-[![GitHub Stars](https://img.shields.io/github/stars/DiegoPinzon20/serenity-bdd-base-automation?label=GitHub%20stars&style=social)](https://github.com/DiegoPinzon20/serenity-bdd-base-automation/stargazers/)
-![GitHub forks](https://img.shields.io/github/forks/DiegoPinzon20/serenity-bdd-base-automation?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/kamIRfarUK/IdentifyNewBikes?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/kamIRfarUK/IdentifyNewBikes?color=orange&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/kamIRfarUK/IdentifyNewBikes?color=success&style=flat-square)
+[![GitHub Stars](https://img.shields.io/github/stars/kamIRfarUK/IdentifyNewBikes?label=GitHub%20stars&style=social)](https://github.com/DiegoPinzon20/IdentifyNewBikes/stargazers/)
+![GitHub forks](https://img.shields.io/github/forks/kamIRfarUK/IdentifyNewBikes?style=social)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub All Releases](https://img.shields.io/github/downloads/DiegoPinzon20/serenity-bdd-base-automation/total.svg)
-![GitHub language count](https://img.shields.io/github/languages/count/DiegoPinzon20/serenity-bdd-base-automation.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/kamIRfarUK/IdentifyNewBikes/total.svg)
+![GitHub language count](https://img.shields.io/github/languages/count/kamIRfarUK/IdentifyNewBikes.svg)
 
 <div align="left">
 <h1>identify-new-bikes-automation ✨</h1>
