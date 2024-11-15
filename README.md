@@ -1,5 +1,4 @@
-# IdentifyNewBikes
-Automation Testing on zigwheels.com
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/kamIRfarUK/IdentifyNewBikes?style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/kamIRfarUK/IdentifyNewBikes?color=orange&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kamIRfarUK/IdentifyNewBikes?color=success&style=flat-square)
